@@ -5,6 +5,8 @@ public class stringconcatination {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String str1 = sc.nextLine();
-        System.out.println(str.concat(str1));
+        String result = str.concat(" ").concat(str1);
+        System.out.println(result);
     }
 }
+
