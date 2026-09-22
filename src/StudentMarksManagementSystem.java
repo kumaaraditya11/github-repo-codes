@@ -26,6 +26,6 @@ public class StudentMarksManagementSystem {
         System.out.println(marks);
         System.out.println(marks.size());
         System.out.println("Max marks: " + Collections.max(marks));
-        System.out.println("Min marks: "Collections.min(marks));
+        System.out.println("Min marks: " + Collections.min(marks));
     }
 }
