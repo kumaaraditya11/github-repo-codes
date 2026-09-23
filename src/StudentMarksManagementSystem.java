@@ -5,6 +5,9 @@ public class StudentMarksManagementSystem {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> marks = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
+
+
+            
             marks.add(sc.nextInt());
         }
         System.out.println(marks);
